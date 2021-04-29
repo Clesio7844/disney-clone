@@ -7,20 +7,14 @@ const Login = () => {
     <Container>
       <Content>
         <CTA>
-          <CTALogoOne
-            src='https://hulu.com/static/hitch/s3/2019-11/Hulu_Disney_Plus_ESPN_Plus-Bundle_Lockup_Prod_3600x720_11.12_0.png'
-            alt='logo'
-          />
+          <CTALogoOne src='/images/cta-logo-one.svg' alt='logo' />
           <SignUp>GET IT ALL THERE</SignUp>
           <Description>
             Get Premier Access to Raya and the last Dragon for an additional fee
             with a Disney+ subscription. As of 04/27/21, the price of Disney+
             and The Disney Bundle will increase by £1
           </Description>
-          <CTALogoTwo
-            src='https://www.disneyplusfreetrial.com/static/images/dp/disney-brands.png'
-            alt='bundle'
-          />
+          <CTALogoTwo src='/images/cta-logo-two.png' alt='bundle' />
         </CTA>
         <BgImage />
       </Content>
