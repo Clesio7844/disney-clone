@@ -1,11 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
 import ImgSlider from './ImgSlider';
+import Viewers from './Viewers';
+import Recomand from './Recomand';
 
 const Home = () => {
   return (
     <Container className='container'>
       <ImgSlider />
+      <Viewers />
+      <Recomand />
     </Container>
   );
 };
